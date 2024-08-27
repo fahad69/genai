@@ -1,6 +1,7 @@
 import asyncio
 from playwright.async_api import async_playwright
 import os
+google-chrome --user-data-dir=/home/cognilium/.config/google-chrome --profile-directory=Default
 
 async def get_headers_and_cookies():
     async with async_playwright() as p:
